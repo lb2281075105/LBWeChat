@@ -32,6 +32,11 @@
 		3ADE953E224DE93600E9C4A4 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE952F224DE93600E9C4A4 /* UIBarButtonItem+Extension.m */; };
 		3ADE953F224DE93600E9C4A4 /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE9531224DE93600E9C4A4 /* NSAttributedString+CZAdditon.m */; };
 		3ADE9540224DE93600E9C4A4 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE9532224DE93600E9C4A4 /* NSArray+Log.m */; };
+		3ADE9543224DEAD300E9C4A4 /* LBWCMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE9542224DEAD300E9C4A4 /* LBWCMainController.m */; };
+		3ADE9546224DEB0500E9C4A4 /* LBWCMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE9545224DEB0500E9C4A4 /* LBWCMineController.m */; };
+		3ADE9549224DEB1C00E9C4A4 /* LBWCDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE9548224DEB1C00E9C4A4 /* LBWCDiscoverController.m */; };
+		3ADE954C224DEB3900E9C4A4 /* LBWCMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE954B224DEB3900E9C4A4 /* LBWCMessageController.m */; };
+		3ADE954F224DEB4800E9C4A4 /* LBWCContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE954E224DEB4800E9C4A4 /* LBWCContactsController.m */; };
 		7DA684B89AF66338CFBD5BA1 /* libPods-LBWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 862A3B06900656C046CA7EEF /* libPods-LBWeChat.a */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +92,16 @@
 		3ADE9531224DE93600E9C4A4 /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
 		3ADE9532224DE93600E9C4A4 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		3ADE9533224DE93600E9C4A4 /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		3ADE9541224DEAD300E9C4A4 /* LBWCMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCMainController.h; sourceTree = "<group>"; };
+		3ADE9542224DEAD300E9C4A4 /* LBWCMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCMainController.m; sourceTree = "<group>"; };
+		3ADE9544224DEB0500E9C4A4 /* LBWCMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCMineController.h; sourceTree = "<group>"; };
+		3ADE9545224DEB0500E9C4A4 /* LBWCMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCMineController.m; sourceTree = "<group>"; };
+		3ADE9547224DEB1C00E9C4A4 /* LBWCDiscoverController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCDiscoverController.h; sourceTree = "<group>"; };
+		3ADE9548224DEB1C00E9C4A4 /* LBWCDiscoverController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCDiscoverController.m; sourceTree = "<group>"; };
+		3ADE954A224DEB3900E9C4A4 /* LBWCMessageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCMessageController.h; sourceTree = "<group>"; };
+		3ADE954B224DEB3900E9C4A4 /* LBWCMessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCMessageController.m; sourceTree = "<group>"; };
+		3ADE954D224DEB4800E9C4A4 /* LBWCContactsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCContactsController.h; sourceTree = "<group>"; };
+		3ADE954E224DEB4800E9C4A4 /* LBWCContactsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCContactsController.m; sourceTree = "<group>"; };
 		862A3B06900656C046CA7EEF /* libPods-LBWeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBWeChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C483142C985ADC5CDA8F3218 /* Pods-LBWeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBWeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBWeChat/Pods-LBWeChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +156,8 @@
 		3ADE94E6224DE69E00E9C4A4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3ADE9541224DEAD300E9C4A4 /* LBWCMainController.h */,
+				3ADE9542224DEAD300E9C4A4 /* LBWCMainController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -237,6 +254,8 @@
 			children = (
 				3ADE94F6224DE69E00E9C4A4 /* Model */,
 				3ADE94F7224DE69E00E9C4A4 /* View */,
+				3ADE954D224DEB4800E9C4A4 /* LBWCContactsController.h */,
+				3ADE954E224DEB4800E9C4A4 /* LBWCContactsController.m */,
 			);
 			path = "Contacts(通讯录)";
 			sourceTree = "<group>";
@@ -260,6 +279,8 @@
 			children = (
 				3ADE94F9224DE69E00E9C4A4 /* Model */,
 				3ADE94FA224DE69E00E9C4A4 /* View */,
+				3ADE9544224DEB0500E9C4A4 /* LBWCMineController.h */,
+				3ADE9545224DEB0500E9C4A4 /* LBWCMineController.m */,
 			);
 			path = "Mine(我的)";
 			sourceTree = "<group>";
@@ -283,6 +304,8 @@
 			children = (
 				3ADE94FC224DE69E00E9C4A4 /* Model */,
 				3ADE94FD224DE69E00E9C4A4 /* View */,
+				3ADE954A224DEB3900E9C4A4 /* LBWCMessageController.h */,
+				3ADE954B224DEB3900E9C4A4 /* LBWCMessageController.m */,
 			);
 			path = "Message(消息)";
 			sourceTree = "<group>";
@@ -306,6 +329,8 @@
 			children = (
 				3ADE94FF224DE69E00E9C4A4 /* Model */,
 				3ADE9500224DE69E00E9C4A4 /* View */,
+				3ADE9547224DEB1C00E9C4A4 /* LBWCDiscoverController.h */,
+				3ADE9548224DEB1C00E9C4A4 /* LBWCDiscoverController.m */,
 			);
 			path = "Discover(发现)";
 			sourceTree = "<group>";
@@ -430,6 +455,7 @@
 		3ADE94C5224DE2CF00E9C4A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LBWC;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "刘博";
 				TargetAttributes = {
@@ -518,15 +544,20 @@
 				3ADE953F224DE93600E9C4A4 /* NSAttributedString+CZAdditon.m in Sources */,
 				3ADE9534224DE93600E9C4A4 /* UIColor+CZAddition.m in Sources */,
 				3ADE9516224DE81E00E9C4A4 /* NSString+Letter.m in Sources */,
+				3ADE9543224DEAD300E9C4A4 /* LBWCMainController.m in Sources */,
 				3ADE953E224DE93600E9C4A4 /* UIBarButtonItem+Extension.m in Sources */,
+				3ADE954C224DEB3900E9C4A4 /* LBWCMessageController.m in Sources */,
+				3ADE954F224DEB4800E9C4A4 /* LBWCContactsController.m in Sources */,
 				3ADE9538224DE93600E9C4A4 /* NSString+CZBase64.m in Sources */,
 				3ADE9511224DE81E00E9C4A4 /* UIView+Geometry.m in Sources */,
 				3ADE9537224DE93600E9C4A4 /* UILabel+CZAddition.m in Sources */,
 				3ADE953B224DE93600E9C4A4 /* NSObject+CZRuntime.m in Sources */,
 				3ADE9502224DE69E00E9C4A4 /* ViewController.m in Sources */,
+				3ADE9546224DEB0500E9C4A4 /* LBWCMineController.m in Sources */,
 				3ADE953C224DE93600E9C4A4 /* UIViewController+CZAddition.m in Sources */,
 				3ADE9515224DE81E00E9C4A4 /* JKDBHelper.m in Sources */,
 				3ADE9512224DE81E00E9C4A4 /* Utility.m in Sources */,
+				3ADE9549224DEB1C00E9C4A4 /* LBWCDiscoverController.m in Sources */,
 				3ADE9513224DE81E00E9C4A4 /* JPinYinUtil.m in Sources */,
 				3ADE9514224DE81E00E9C4A4 /* JKDBModel.m in Sources */,
 				3ADE9501224DE69E00E9C4A4 /* AppDelegate.m in Sources */,
