@@ -106,6 +106,7 @@
 				3ADE94C9224DE2CF00E9C4A4 /* Sources */,
 				3ADE94CA224DE2CF00E9C4A4 /* Frameworks */,
 				3ADE94CB224DE2CF00E9C4A4 /* Resources */,
+				039067F9AB83FE9A63B163BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +163,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		039067F9AB83FE9A63B163BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LBWeChat/Pods-LBWeChat-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBWeChat/Pods-LBWeChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B6ECB6D3343211B9888B3554 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
