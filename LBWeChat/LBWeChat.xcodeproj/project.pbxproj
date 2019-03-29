@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3ADE94D2224DE2CF00E9C4A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE94D1224DE2CF00E9C4A4 /* AppDelegate.m */; };
-		3ADE94D5224DE2CF00E9C4A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE94D4224DE2CF00E9C4A4 /* ViewController.m */; };
 		3ADE94D8224DE2CF00E9C4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADE94D6224DE2CF00E9C4A4 /* Main.storyboard */; };
 		3ADE94DA224DE2D100E9C4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADE94D9224DE2D100E9C4A4 /* Assets.xcassets */; };
 		3ADE94DD224DE2D100E9C4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADE94DB224DE2D100E9C4A4 /* LaunchScreen.storyboard */; };
 		3ADE94E0224DE2D100E9C4A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE94DF224DE2D100E9C4A4 /* main.m */; };
+		3ADE9501224DE69E00E9C4A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE94F0224DE69E00E9C4A4 /* AppDelegate.m */; };
+		3ADE9502224DE69E00E9C4A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE94F2224DE69E00E9C4A4 /* ViewController.m */; };
 		7DA684B89AF66338CFBD5BA1 /* libPods-LBWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 862A3B06900656C046CA7EEF /* libPods-LBWeChat.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AB13AF662776ACF36EF92E7 /* Pods-LBWeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBWeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBWeChat/Pods-LBWeChat.debug.xcconfig"; sourceTree = "<group>"; };
 		3ADE94CD224DE2CF00E9C4A4 /* LBWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ADE94D0224DE2CF00E9C4A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3ADE94D1224DE2CF00E9C4A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3ADE94D3224DE2CF00E9C4A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3ADE94D4224DE2CF00E9C4A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3ADE94D7224DE2CF00E9C4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3ADE94D9224DE2D100E9C4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ADE94DC224DE2D100E9C4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ADE94DE224DE2D100E9C4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ADE94DF224DE2D100E9C4A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ADE94EF224DE69E00E9C4A4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3ADE94F0224DE69E00E9C4A4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3ADE94F2224DE69E00E9C4A4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3ADE94F3224DE69E00E9C4A4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		862A3B06900656C046CA7EEF /* libPods-LBWeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBWeChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C483142C985ADC5CDA8F3218 /* Pods-LBWeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBWeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBWeChat/Pods-LBWeChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,10 +65,11 @@
 		3ADE94CF224DE2CF00E9C4A4 /* LBWeChat */ = {
 			isa = PBXGroup;
 			children = (
-				3ADE94D0224DE2CF00E9C4A4 /* AppDelegate.h */,
-				3ADE94D1224DE2CF00E9C4A4 /* AppDelegate.m */,
-				3ADE94D3224DE2CF00E9C4A4 /* ViewController.h */,
-				3ADE94D4224DE2CF00E9C4A4 /* ViewController.m */,
+				3ADE94EC224DE69E00E9C4A4 /* Common */,
+				3ADE94F4224DE69E00E9C4A4 /* Controller */,
+				3ADE94E6224DE69E00E9C4A4 /* Main */,
+				3ADE94ED224DE69E00E9C4A4 /* Orther */,
+				3ADE94E7224DE69E00E9C4A4 /* Source */,
 				3ADE94D6224DE2CF00E9C4A4 /* Main.storyboard */,
 				3ADE94D9224DE2D100E9C4A4 /* Assets.xcassets */,
 				3ADE94DB224DE2D100E9C4A4 /* LaunchScreen.storyboard */,
@@ -76,6 +77,189 @@
 				3ADE94DF224DE2D100E9C4A4 /* main.m */,
 			);
 			path = LBWeChat;
+			sourceTree = "<group>";
+		};
+		3ADE94E6224DE69E00E9C4A4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3ADE94E7224DE69E00E9C4A4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE94E8224DE69E00E9C4A4 /* Contacts(通讯录) */,
+				3ADE94E9224DE69E00E9C4A4 /* Mine(我的) */,
+				3ADE94EA224DE69E00E9C4A4 /* Message(消息) */,
+				3ADE94EB224DE69E00E9C4A4 /* Discover(发现) */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3ADE94E8224DE69E00E9C4A4 /* Contacts(通讯录) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Contacts(通讯录)";
+			sourceTree = "<group>";
+		};
+		3ADE94E9224DE69E00E9C4A4 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		3ADE94EA224DE69E00E9C4A4 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		3ADE94EB224DE69E00E9C4A4 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		3ADE94EC224DE69E00E9C4A4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3ADE94ED224DE69E00E9C4A4 /* Orther */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE94EE224DE69E00E9C4A4 /* AppDelegate */,
+				3ADE94F1224DE69E00E9C4A4 /* ViewController */,
+			);
+			path = Orther;
+			sourceTree = "<group>";
+		};
+		3ADE94EE224DE69E00E9C4A4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE94EF224DE69E00E9C4A4 /* AppDelegate.h */,
+				3ADE94F0224DE69E00E9C4A4 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3ADE94F1224DE69E00E9C4A4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE94F2224DE69E00E9C4A4 /* ViewController.m */,
+				3ADE94F3224DE69E00E9C4A4 /* ViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3ADE94F4224DE69E00E9C4A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE94F5224DE69E00E9C4A4 /* Contacts(通讯录) */,
+				3ADE94F8224DE69E00E9C4A4 /* Mine(我的) */,
+				3ADE94FB224DE69E00E9C4A4 /* Message(消息) */,
+				3ADE94FE224DE69E00E9C4A4 /* Discover(发现) */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3ADE94F5224DE69E00E9C4A4 /* Contacts(通讯录) */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE94F6224DE69E00E9C4A4 /* Model */,
+				3ADE94F7224DE69E00E9C4A4 /* View */,
+			);
+			path = "Contacts(通讯录)";
+			sourceTree = "<group>";
+		};
+		3ADE94F6224DE69E00E9C4A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3ADE94F7224DE69E00E9C4A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3ADE94F8224DE69E00E9C4A4 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE94F9224DE69E00E9C4A4 /* Model */,
+				3ADE94FA224DE69E00E9C4A4 /* View */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		3ADE94F9224DE69E00E9C4A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3ADE94FA224DE69E00E9C4A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3ADE94FB224DE69E00E9C4A4 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE94FC224DE69E00E9C4A4 /* Model */,
+				3ADE94FD224DE69E00E9C4A4 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		3ADE94FC224DE69E00E9C4A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3ADE94FD224DE69E00E9C4A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3ADE94FE224DE69E00E9C4A4 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE94FF224DE69E00E9C4A4 /* Model */,
+				3ADE9500224DE69E00E9C4A4 /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		3ADE94FF224DE69E00E9C4A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3ADE9500224DE69E00E9C4A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		56707021B69B1FCF799BEC40 /* Pods */ = {
@@ -206,9 +390,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ADE94D5224DE2CF00E9C4A4 /* ViewController.m in Sources */,
+				3ADE9502224DE69E00E9C4A4 /* ViewController.m in Sources */,
+				3ADE9501224DE69E00E9C4A4 /* AppDelegate.m in Sources */,
 				3ADE94E0224DE2D100E9C4A4 /* main.m in Sources */,
-				3ADE94D2224DE2CF00E9C4A4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
