@@ -1,22 +1,32 @@
 PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - MJRefresh (3.1.15.7)
+  - MLLabel (1.10.5)
   - SDWebImage (4.4.3):
     - SDWebImage/Core (= 4.4.3)
   - SDWebImage/Core (4.4.3)
 
 DEPENDENCIES:
+  - FMDB
   - MJRefresh
+  - MLLabel
   - SDWebImage
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FMDB
     - MJRefresh
+    - MLLabel
     - SDWebImage
 
 SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MLLabel: d76124055a2205e7f76878e62cd06ba925ba0c97
   SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
 
-PODFILE CHECKSUM: 60b4d396999800d1833764cd7ff01b34a4fb1fe2
+PODFILE CHECKSUM: 5c4f3d1a066b5ce416493cc36743b1648674e916
 
 COCOAPODS: 1.5.3
