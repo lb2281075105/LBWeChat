@@ -12,7 +12,7 @@
 #import "Utility.h"
 #import "MLLabelUtil.h"
 #import "MomentKit.h"
-
+#import "MomentUtil.h"
 #import <MLLabel/NSAttributedString+MLExpression.h>
 #import <MLLabel/MLExpressionManager.h>
 #import <MLLabel/MLTextAttachment.h>

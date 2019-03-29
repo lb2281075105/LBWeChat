@@ -71,8 +71,8 @@
 // 获取单张图片的实际size
 + (CGSize)getSingleSize:(CGSize)singleSize
 {
-    CGFloat maxWidth = k_screen_width - 150;
-    CGFloat maxHeight = k_screen_width - 130;
+    CGFloat maxWidth = [UIScreen cz_screenWidth] - 150;
+    CGFloat maxHeight = [UIScreen cz_screenWidth] - 130;
     CGFloat width = singleSize.width;
     CGFloat height = singleSize.height;
     
