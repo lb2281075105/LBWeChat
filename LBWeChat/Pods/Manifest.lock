@@ -9,6 +9,8 @@ PODS:
     - SDWebImage/Core (= 4.4.3)
   - SDWebImage/Core (4.4.3)
   - UMengAnalytics-NO-IDFA (4.2.5)
+  - UUActionSheet (1.7)
+  - UUButton (1.1)
 
 DEPENDENCIES:
   - FMDB
@@ -17,6 +19,8 @@ DEPENDENCIES:
   - MMWebView
   - SDWebImage
   - UMengAnalytics-NO-IDFA
+  - UUActionSheet
+  - UUButton
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -26,6 +30,8 @@ SPEC REPOS:
     - MMWebView
     - SDWebImage
     - UMengAnalytics-NO-IDFA
+    - UUActionSheet
+    - UUButton
 
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
@@ -34,7 +40,9 @@ SPEC CHECKSUMS:
   MMWebView: 4d7c3789bc558e615bed91e9fb3e1a2a62a514ad
   SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  UUActionSheet: a73fb593b835e66f679e51c9ccdf470070475c60
+  UUButton: 9a19bbe0c812a6920de21da8acca7a2d0bad52da
 
-PODFILE CHECKSUM: 756ecc32b6415d904c6cf6b615cbc9144da6efd5
+PODFILE CHECKSUM: b8a20b34beeb2005325f2a5d95002e4b32993185
 
 COCOAPODS: 1.5.3
