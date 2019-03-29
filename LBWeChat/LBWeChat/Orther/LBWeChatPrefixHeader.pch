@@ -1,0 +1,41 @@
+//
+//  LBWeChatPrefixHeader.pch
+//  LBWeChat
+//
+//  Created by liubo on 2019/3/29.
+//  Copyright © 2019 刘博. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "UIView+Geometry.h"
+#import "Utility.h"
+#import "MLLabelUtil.h"
+#import "MomentKit.h"
+
+#import <MLLabel/NSAttributedString+MLExpression.h>
+#import <MLLabel/MLExpressionManager.h>
+#import <MLLabel/MLTextAttachment.h>
+#import <MLLabel/MLLinkLabel.h>
+#import <UIImageView+WebCache.h>
+#import <UUActionSheet.h>
+#import <MJRefresh.h>
+#import "CZAdditions.h"
+
+// 状态栏高度
+#define LBWeChatStatusHeight         [[UIApplication sharedApplication] statusBarFrame].size.height
+// 导航栏高度
+#define LBWeChatNavHeight            self.navigationController.navigationBar.height
+
+// 顶部整体高度
+#define LBWeChatTopHeight            (LBWeChatStatusHeight + LBWeChatNavHeight)
+
+// iPhone X系列
+#define k_iphone_x              ([UIScreen cz_screenHeight] >= 812.0f)
+
+// tabbar高度
+#define LBWeChatTabBarHeight            (k_iphone_x ? 83.0 : 49.0)
+
+// 背景颜色
+#define LBWeChatBackgroundColor      [UIColor colorWithRed:0.94 green:0.94 blue:0.96 alpha:1.0]
+
