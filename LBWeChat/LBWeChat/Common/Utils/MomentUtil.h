@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Comment.h"
 #import "Moment.h"
-#import "Message.h"
+#import "LBWCMessage.h"
 #import "MPicture.h"
 #import "MUser.h"
 

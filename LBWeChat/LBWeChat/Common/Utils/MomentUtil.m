@@ -52,7 +52,7 @@
         user.portrait = [images objectAtIndex:i];
         [user save];
         // 消息
-        Message * message = [[Message alloc] init];
+        LBWCMessage *message = [[LBWCMessage alloc] init];
         message.time = 1549162615;
         message.userName = [names objectAtIndex:i];
         message.userPortrait = [images objectAtIndex:i];
@@ -70,7 +70,7 @@
     
     // 当前用户
     MUser * user = [[MUser alloc] init];
-    user.name = @"LEA";
+    user.name = @"JCSON";
     user.type = 1;
     [user save];
     

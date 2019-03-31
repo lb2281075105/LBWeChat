@@ -47,8 +47,10 @@
 		3ADE9570224DEF2000E9C4A4 /* MMImagePreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE956B224DEF2000E9C4A4 /* MMImagePreviewView.m */; };
 		3ADE9571224DEF2000E9C4A4 /* MomentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE956C224DEF2000E9C4A4 /* MomentCell.m */; };
 		3ADE9572224DEF2000E9C4A4 /* MMOperateMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE956E224DEF2000E9C4A4 /* MMOperateMenuView.m */; };
-		3ADE9575224DEF6600E9C4A4 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE9574224DEF6600E9C4A4 /* Message.m */; };
 		3ADE9579224DEF9600E9C4A4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE9577224DEF9600E9C4A4 /* UIView+Frame.m */; };
+		3ADE957D225050C400E9C4A4 /* LBWCSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE957C225050C400E9C4A4 /* LBWCSearchResultController.m */; };
+		3ADE95802250516200E9C4A4 /* LBWCMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE957F2250516200E9C4A4 /* LBWCMessageCell.m */; };
+		3ADE95832250521B00E9C4A4 /* LBWCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE95822250521B00E9C4A4 /* LBWCMessage.m */; };
 		7DA684B89AF66338CFBD5BA1 /* libPods-LBWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 862A3B06900656C046CA7EEF /* libPods-LBWeChat.a */; };
 /* End PBXBuildFile section */
 
@@ -135,10 +137,14 @@
 		3ADE956C224DEF2000E9C4A4 /* MomentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentCell.m; sourceTree = "<group>"; };
 		3ADE956D224DEF2000E9C4A4 /* MMImageListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMImageListView.h; sourceTree = "<group>"; };
 		3ADE956E224DEF2000E9C4A4 /* MMOperateMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMOperateMenuView.m; sourceTree = "<group>"; };
-		3ADE9573224DEF6600E9C4A4 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
-		3ADE9574224DEF6600E9C4A4 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 		3ADE9577224DEF9600E9C4A4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		3ADE9578224DEF9600E9C4A4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3ADE957B225050C400E9C4A4 /* LBWCSearchResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCSearchResultController.h; sourceTree = "<group>"; };
+		3ADE957C225050C400E9C4A4 /* LBWCSearchResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCSearchResultController.m; sourceTree = "<group>"; };
+		3ADE957E2250516200E9C4A4 /* LBWCMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCMessageCell.h; sourceTree = "<group>"; };
+		3ADE957F2250516200E9C4A4 /* LBWCMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCMessageCell.m; sourceTree = "<group>"; };
+		3ADE95812250521B00E9C4A4 /* LBWCMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCMessage.h; sourceTree = "<group>"; };
+		3ADE95822250521B00E9C4A4 /* LBWCMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCMessage.m; sourceTree = "<group>"; };
 		862A3B06900656C046CA7EEF /* libPods-LBWeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBWeChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C483142C985ADC5CDA8F3218 /* Pods-LBWeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBWeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBWeChat/Pods-LBWeChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -341,6 +347,7 @@
 		3ADE94FB224DE69E00E9C4A4 /* Message(消息) */ = {
 			isa = PBXGroup;
 			children = (
+				3ADE957A225050B200E9C4A4 /* Search(搜索) */,
 				3ADE94FC224DE69E00E9C4A4 /* Model */,
 				3ADE94FD224DE69E00E9C4A4 /* View */,
 				3ADE954A224DEB3900E9C4A4 /* LBWCMessageController.h */,
@@ -352,8 +359,8 @@
 		3ADE94FC224DE69E00E9C4A4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3ADE9573224DEF6600E9C4A4 /* Message.h */,
-				3ADE9574224DEF6600E9C4A4 /* Message.m */,
+				3ADE95812250521B00E9C4A4 /* LBWCMessage.h */,
+				3ADE95822250521B00E9C4A4 /* LBWCMessage.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -361,6 +368,8 @@
 		3ADE94FD224DE69E00E9C4A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3ADE957E2250516200E9C4A4 /* LBWCMessageCell.h */,
+				3ADE957F2250516200E9C4A4 /* LBWCMessageCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -512,6 +521,15 @@
 			path = "UIView+Frame";
 			sourceTree = "<group>";
 		};
+		3ADE957A225050B200E9C4A4 /* Search(搜索) */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE957B225050C400E9C4A4 /* LBWCSearchResultController.h */,
+				3ADE957C225050C400E9C4A4 /* LBWCSearchResultController.m */,
+			);
+			path = "Search(搜索)";
+			sourceTree = "<group>";
+		};
 		56707021B69B1FCF799BEC40 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -649,12 +667,14 @@
 				3ADE9516224DE81E00E9C4A4 /* NSString+Letter.m in Sources */,
 				3ADE9555224DED6200E9C4A4 /* MomentUtil.m in Sources */,
 				3ADE9543224DEAD300E9C4A4 /* LBWCMainController.m in Sources */,
+				3ADE957D225050C400E9C4A4 /* LBWCSearchResultController.m in Sources */,
 				3ADE9572224DEF2000E9C4A4 /* MMOperateMenuView.m in Sources */,
-				3ADE9575224DEF6600E9C4A4 /* Message.m in Sources */,
+				3ADE95832250521B00E9C4A4 /* LBWCMessage.m in Sources */,
 				3ADE953E224DE93600E9C4A4 /* UIBarButtonItem+Extension.m in Sources */,
 				3ADE954C224DEB3900E9C4A4 /* LBWCMessageController.m in Sources */,
 				3ADE9570224DEF2000E9C4A4 /* MMImagePreviewView.m in Sources */,
 				3ADE9571224DEF2000E9C4A4 /* MomentCell.m in Sources */,
+				3ADE95802250516200E9C4A4 /* LBWCMessageCell.m in Sources */,
 				3ADE954F224DEB4800E9C4A4 /* LBWCContactsController.m in Sources */,
 				3ADE9538224DE93600E9C4A4 /* NSString+CZBase64.m in Sources */,
 				3ADE9511224DE81E00E9C4A4 /* UIView+Geometry.m in Sources */,
