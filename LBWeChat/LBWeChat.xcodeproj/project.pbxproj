@@ -286,15 +286,15 @@
 		3ADE94F4224DE69E00E9C4A4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3ADE94F5224DE69E00E9C4A4 /* Contacts(通讯录) */,
-				3ADE94F8224DE69E00E9C4A4 /* Mine(我的) */,
-				3ADE94FB224DE69E00E9C4A4 /* Message(消息) */,
-				3ADE94FE224DE69E00E9C4A4 /* Discover(发现) */,
+				3ADE94F5224DE69E00E9C4A4 /* 02.Contacts(通讯录) */,
+				3ADE94F8224DE69E00E9C4A4 /* 04.Mine(我的) */,
+				3ADE94FB224DE69E00E9C4A4 /* 01.Message(微信) */,
+				3ADE94FE224DE69E00E9C4A4 /* 03.Discover(发现) */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		3ADE94F5224DE69E00E9C4A4 /* Contacts(通讯录) */ = {
+		3ADE94F5224DE69E00E9C4A4 /* 02.Contacts(通讯录) */ = {
 			isa = PBXGroup;
 			children = (
 				3ADE94F6224DE69E00E9C4A4 /* Model */,
@@ -302,7 +302,7 @@
 				3ADE954D224DEB4800E9C4A4 /* LBWCContactsController.h */,
 				3ADE954E224DEB4800E9C4A4 /* LBWCContactsController.m */,
 			);
-			path = "Contacts(通讯录)";
+			path = "02.Contacts(通讯录)";
 			sourceTree = "<group>";
 		};
 		3ADE94F6224DE69E00E9C4A4 /* Model */ = {
@@ -319,7 +319,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		3ADE94F8224DE69E00E9C4A4 /* Mine(我的) */ = {
+		3ADE94F8224DE69E00E9C4A4 /* 04.Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
 				3ADE94F9224DE69E00E9C4A4 /* Model */,
@@ -327,7 +327,7 @@
 				3ADE9544224DEB0500E9C4A4 /* LBWCMineController.h */,
 				3ADE9545224DEB0500E9C4A4 /* LBWCMineController.m */,
 			);
-			path = "Mine(我的)";
+			path = "04.Mine(我的)";
 			sourceTree = "<group>";
 		};
 		3ADE94F9224DE69E00E9C4A4 /* Model */ = {
@@ -344,7 +344,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		3ADE94FB224DE69E00E9C4A4 /* Message(消息) */ = {
+		3ADE94FB224DE69E00E9C4A4 /* 01.Message(微信) */ = {
 			isa = PBXGroup;
 			children = (
 				3ADE957A225050B200E9C4A4 /* Search(搜索) */,
@@ -353,7 +353,7 @@
 				3ADE954A224DEB3900E9C4A4 /* LBWCMessageController.h */,
 				3ADE954B224DEB3900E9C4A4 /* LBWCMessageController.m */,
 			);
-			path = "Message(消息)";
+			path = "01.Message(微信)";
 			sourceTree = "<group>";
 		};
 		3ADE94FC224DE69E00E9C4A4 /* Model */ = {
@@ -374,7 +374,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		3ADE94FE224DE69E00E9C4A4 /* Discover(发现) */ = {
+		3ADE94FE224DE69E00E9C4A4 /* 03.Discover(发现) */ = {
 			isa = PBXGroup;
 			children = (
 				3ADE9557224DEEE200E9C4A4 /* Comment */,
@@ -383,7 +383,7 @@
 				3ADE9547224DEB1C00E9C4A4 /* LBWCDiscoverController.h */,
 				3ADE9548224DEB1C00E9C4A4 /* LBWCDiscoverController.m */,
 			);
-			path = "Discover(发现)";
+			path = "03.Discover(发现)";
 			sourceTree = "<group>";
 		};
 		3ADE94FF224DE69E00E9C4A4 /* Model */ = {
