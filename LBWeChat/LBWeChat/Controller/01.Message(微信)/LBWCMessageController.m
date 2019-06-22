@@ -10,6 +10,7 @@
 #import "LBWCSearchResultController.h"
 #import "LBWCMessage.h"
 #import "LBWCMessageCell.h"
+
 @interface LBWCMessageController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -69,10 +70,6 @@
         _messageList = [[NSMutableArray alloc] init];
     }
     return _messageList;
-}
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
