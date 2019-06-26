@@ -39,3 +39,4 @@
 // 背景颜色
 #define LBWeChatBackgroundColor      [UIColor colorWithRed:0.94 green:0.94 blue:0.96 alpha:1.0]
 
+#define LBWeChatRGBColor(r,g,b)       [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]

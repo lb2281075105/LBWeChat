@@ -10,10 +10,10 @@
 #import "LBWCSearchResultController.h"
 #import "LBWCMessage.h"
 #import "LBWCMessageCell.h"
-
+#import "LBWCMessageTV.h"
 @interface LBWCMessageController ()<UITableViewDelegate,UITableViewDataSource>
 
-@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) LBWCMessageTV *tableView;
 @property (nonatomic, strong) NSMutableArray *messageList;
 
 @end
@@ -35,7 +35,7 @@
 
 - (UITableView *)tableView{
     if (!_tableView) {
-        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen cz_screenWidth], [UIScreen cz_screenHeight] - LBWeChatTopHeight - LBWeChatTabBarHeight)];
+        _tableView = [[LBWCMessageTV alloc] initWithFrame:CGRectMake(0, 0, [UIScreen cz_screenWidth], [UIScreen cz_screenHeight] - LBWeChatTopHeight - LBWeChatTabBarHeight)];
         _tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
         _tableView.backgroundColor = [UIColor clearColor];
         _tableView.dataSource = self;
