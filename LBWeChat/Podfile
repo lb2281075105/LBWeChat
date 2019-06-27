@@ -15,6 +15,6 @@ target 'LBWeChat' do
     pod "MMWebView"
     pod "UUButton"
     pod "UUActionSheet"
-#    pod "YYText"
+    pod "YYText"
 
 end

@@ -11,6 +11,7 @@ PODS:
   - UMengAnalytics-NO-IDFA (4.2.5)
   - UUActionSheet (1.7)
   - UUButton (1.1)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - FMDB
@@ -21,6 +22,7 @@ DEPENDENCIES:
   - UMengAnalytics-NO-IDFA
   - UUActionSheet
   - UUButton
+  - YYText
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -32,6 +34,7 @@ SPEC REPOS:
     - UMengAnalytics-NO-IDFA
     - UUActionSheet
     - UUButton
+    - YYText
 
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
@@ -42,7 +45,8 @@ SPEC CHECKSUMS:
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   UUActionSheet: a73fb593b835e66f679e51c9ccdf470070475c60
   UUButton: 9a19bbe0c812a6920de21da8acca7a2d0bad52da
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 88f84756695e1778e5424c4edd48ed6bb18d9e6e
+PODFILE CHECKSUM: 464bb76947a622d5795ef3998987bd7dcb273e8e
 
 COCOAPODS: 1.5.3
