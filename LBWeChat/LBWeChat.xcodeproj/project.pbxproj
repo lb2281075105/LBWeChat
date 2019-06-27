@@ -10,6 +10,19 @@
 		3A89028422C335440090226C /* UIScrollView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89028122C335440090226C /* UIScrollView+Category.m */; };
 		3A89028522C335440090226C /* MMRunLoopWorkDistribution.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89028322C335440090226C /* MMRunLoopWorkDistribution.m */; };
 		3A89028822C338370090226C /* LBWCMessageTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89028722C338370090226C /* LBWCMessageTV.m */; };
+		3A89028B22C3B7060090226C /* LBWCMineTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89028A22C3B7060090226C /* LBWCMineTV.m */; };
+		3A89028E22C3B7F60090226C /* LBWCMineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89028D22C3B7F60090226C /* LBWCMineModel.m */; };
+		3A89029122C3B8210090226C /* LBWCUserDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89029022C3B8210090226C /* LBWCUserDetailController.m */; };
+		3A89029422C3B86F0090226C /* LBWCUserDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89029322C3B86F0090226C /* LBWCUserDetailCell.m */; };
+		3A89029722C3BA810090226C /* LBWCUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89029622C3BA810090226C /* LBWCUserModel.m */; };
+		3A8902A522C3BC4E0090226C /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89029B22C3BC4D0090226C /* Comment.m */; };
+		3A8902A622C3BC4E0090226C /* MUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89029C22C3BC4D0090226C /* MUser.m */; };
+		3A8902A722C3BC4E0090226C /* Moment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89029D22C3BC4D0090226C /* Moment.m */; };
+		3A8902A822C3BC4E0090226C /* MLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89029E22C3BC4D0090226C /* MLocation.m */; };
+		3A8902A922C3BC4E0090226C /* MPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8902A322C3BC4E0090226C /* MPicture.m */; };
+		3A8902B122C3BCB00090226C /* MomentConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8902AB22C3BCAF0090226C /* MomentConstant.m */; };
+		3A8902B222C3BCB00090226C /* MLLabelUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8902AC22C3BCB00090226C /* MLLabelUtil.m */; };
+		3A8902B322C3BCB00090226C /* MomentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8902B022C3BCB00090226C /* MomentUtil.m */; };
 		3ADE94D8224DE2CF00E9C4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADE94D6224DE2CF00E9C4A4 /* Main.storyboard */; };
 		3ADE94DA224DE2D100E9C4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADE94D9224DE2D100E9C4A4 /* Assets.xcassets */; };
 		3ADE94DD224DE2D100E9C4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADE94DB224DE2D100E9C4A4 /* LaunchScreen.storyboard */; };
@@ -40,12 +53,6 @@
 		3ADE9549224DEB1C00E9C4A4 /* LBWCDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE9548224DEB1C00E9C4A4 /* LBWCDiscoverController.m */; };
 		3ADE954C224DEB3900E9C4A4 /* LBWCMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE954B224DEB3900E9C4A4 /* LBWCMessageController.m */; };
 		3ADE954F224DEB4800E9C4A4 /* LBWCContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE954E224DEB4800E9C4A4 /* LBWCContactsController.m */; };
-		3ADE9555224DED6200E9C4A4 /* MomentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE9551224DED6200E9C4A4 /* MomentUtil.m */; };
-		3ADE9556224DED6200E9C4A4 /* MLLabelUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE9552224DED6200E9C4A4 /* MLLabelUtil.m */; };
-		3ADE9561224DEEE200E9C4A4 /* Moment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE955A224DEEE200E9C4A4 /* Moment.m */; };
-		3ADE9562224DEEE200E9C4A4 /* MPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE955B224DEEE200E9C4A4 /* MPicture.m */; };
-		3ADE9563224DEEE200E9C4A4 /* MUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE955C224DEEE200E9C4A4 /* MUser.m */; };
-		3ADE9564224DEEE200E9C4A4 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE955D224DEEE200E9C4A4 /* Comment.m */; };
 		3ADE956F224DEF2000E9C4A4 /* MMImageListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE9568224DEF2000E9C4A4 /* MMImageListView.m */; };
 		3ADE9570224DEF2000E9C4A4 /* MMImagePreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE956B224DEF2000E9C4A4 /* MMImagePreviewView.m */; };
 		3ADE9571224DEF2000E9C4A4 /* MomentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE956C224DEF2000E9C4A4 /* MomentCell.m */; };
@@ -65,6 +72,33 @@
 		3A89028322C335440090226C /* MMRunLoopWorkDistribution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRunLoopWorkDistribution.m; sourceTree = "<group>"; };
 		3A89028622C338370090226C /* LBWCMessageTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCMessageTV.h; sourceTree = "<group>"; };
 		3A89028722C338370090226C /* LBWCMessageTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCMessageTV.m; sourceTree = "<group>"; };
+		3A89028922C3B7060090226C /* LBWCMineTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCMineTV.h; sourceTree = "<group>"; };
+		3A89028A22C3B7060090226C /* LBWCMineTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCMineTV.m; sourceTree = "<group>"; };
+		3A89028C22C3B7F60090226C /* LBWCMineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCMineModel.h; sourceTree = "<group>"; };
+		3A89028D22C3B7F60090226C /* LBWCMineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCMineModel.m; sourceTree = "<group>"; };
+		3A89028F22C3B8210090226C /* LBWCUserDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCUserDetailController.h; sourceTree = "<group>"; };
+		3A89029022C3B8210090226C /* LBWCUserDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCUserDetailController.m; sourceTree = "<group>"; };
+		3A89029222C3B86F0090226C /* LBWCUserDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCUserDetailCell.h; sourceTree = "<group>"; };
+		3A89029322C3B86F0090226C /* LBWCUserDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCUserDetailCell.m; sourceTree = "<group>"; };
+		3A89029522C3BA810090226C /* LBWCUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCUserModel.h; sourceTree = "<group>"; };
+		3A89029622C3BA810090226C /* LBWCUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCUserModel.m; sourceTree = "<group>"; };
+		3A89029B22C3BC4D0090226C /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		3A89029C22C3BC4D0090226C /* MUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUser.m; sourceTree = "<group>"; };
+		3A89029D22C3BC4D0090226C /* Moment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moment.m; sourceTree = "<group>"; };
+		3A89029E22C3BC4D0090226C /* MLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLocation.m; sourceTree = "<group>"; };
+		3A89029F22C3BC4D0090226C /* MLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLocation.h; sourceTree = "<group>"; };
+		3A8902A022C3BC4D0090226C /* Moment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moment.h; sourceTree = "<group>"; };
+		3A8902A122C3BC4E0090226C /* MPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPicture.h; sourceTree = "<group>"; };
+		3A8902A222C3BC4E0090226C /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		3A8902A322C3BC4E0090226C /* MPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPicture.m; sourceTree = "<group>"; };
+		3A8902A422C3BC4E0090226C /* MUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUser.h; sourceTree = "<group>"; };
+		3A8902AA22C3BCAF0090226C /* MomentUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentUtil.h; sourceTree = "<group>"; };
+		3A8902AB22C3BCAF0090226C /* MomentConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentConstant.m; sourceTree = "<group>"; };
+		3A8902AC22C3BCB00090226C /* MLLabelUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLabelUtil.m; sourceTree = "<group>"; };
+		3A8902AD22C3BCB00090226C /* MLLabelUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLabelUtil.h; sourceTree = "<group>"; };
+		3A8902AE22C3BCB00090226C /* MomentMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentMacros.h; sourceTree = "<group>"; };
+		3A8902AF22C3BCB00090226C /* MomentConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentConstant.h; sourceTree = "<group>"; };
+		3A8902B022C3BCB00090226C /* MomentUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentUtil.m; sourceTree = "<group>"; };
 		3ADE94CD224DE2CF00E9C4A4 /* LBWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADE94D7224DE2CF00E9C4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3ADE94D9224DE2D100E9C4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -125,18 +159,6 @@
 		3ADE954B224DEB3900E9C4A4 /* LBWCMessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCMessageController.m; sourceTree = "<group>"; };
 		3ADE954D224DEB4800E9C4A4 /* LBWCContactsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWCContactsController.h; sourceTree = "<group>"; };
 		3ADE954E224DEB4800E9C4A4 /* LBWCContactsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBWCContactsController.m; sourceTree = "<group>"; };
-		3ADE9551224DED6200E9C4A4 /* MomentUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentUtil.m; sourceTree = "<group>"; };
-		3ADE9552224DED6200E9C4A4 /* MLLabelUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLabelUtil.m; sourceTree = "<group>"; };
-		3ADE9553224DED6200E9C4A4 /* MomentUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentUtil.h; sourceTree = "<group>"; };
-		3ADE9554224DED6200E9C4A4 /* MLLabelUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLabelUtil.h; sourceTree = "<group>"; };
-		3ADE9559224DEEE200E9C4A4 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
-		3ADE955A224DEEE200E9C4A4 /* Moment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moment.m; sourceTree = "<group>"; };
-		3ADE955B224DEEE200E9C4A4 /* MPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPicture.m; sourceTree = "<group>"; };
-		3ADE955C224DEEE200E9C4A4 /* MUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUser.m; sourceTree = "<group>"; };
-		3ADE955D224DEEE200E9C4A4 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
-		3ADE955E224DEEE200E9C4A4 /* MUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUser.h; sourceTree = "<group>"; };
-		3ADE955F224DEEE200E9C4A4 /* MPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPicture.h; sourceTree = "<group>"; };
-		3ADE9560224DEEE200E9C4A4 /* Moment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moment.h; sourceTree = "<group>"; };
 		3ADE9566224DEF2000E9C4A4 /* MMImagePreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMImagePreviewView.h; sourceTree = "<group>"; };
 		3ADE9567224DEF2000E9C4A4 /* MomentKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentKit.h; sourceTree = "<group>"; };
 		3ADE9568224DEF2000E9C4A4 /* MMImageListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMImageListView.m; sourceTree = "<group>"; };
@@ -335,6 +357,8 @@
 				3ADE94FA224DE69E00E9C4A4 /* View */,
 				3ADE9544224DEB0500E9C4A4 /* LBWCMineController.h */,
 				3ADE9545224DEB0500E9C4A4 /* LBWCMineController.m */,
+				3A89028F22C3B8210090226C /* LBWCUserDetailController.h */,
+				3A89029022C3B8210090226C /* LBWCUserDetailController.m */,
 			);
 			path = "04.Mine(我的)";
 			sourceTree = "<group>";
@@ -342,6 +366,10 @@
 		3ADE94F9224DE69E00E9C4A4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A89028C22C3B7F60090226C /* LBWCMineModel.h */,
+				3A89028D22C3B7F60090226C /* LBWCMineModel.m */,
+				3A89029522C3BA810090226C /* LBWCUserModel.h */,
+				3A89029622C3BA810090226C /* LBWCUserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -349,6 +377,10 @@
 		3ADE94FA224DE69E00E9C4A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3A89028922C3B7060090226C /* LBWCMineTV.h */,
+				3A89028A22C3B7060090226C /* LBWCMineTV.m */,
+				3A89029222C3B86F0090226C /* LBWCUserDetailCell.h */,
+				3A89029322C3B86F0090226C /* LBWCUserDetailCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -479,10 +511,13 @@
 		3ADE9550224DED6200E9C4A4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				3ADE9551224DED6200E9C4A4 /* MomentUtil.m */,
-				3ADE9552224DED6200E9C4A4 /* MLLabelUtil.m */,
-				3ADE9553224DED6200E9C4A4 /* MomentUtil.h */,
-				3ADE9554224DED6200E9C4A4 /* MLLabelUtil.h */,
+				3A8902AD22C3BCB00090226C /* MLLabelUtil.h */,
+				3A8902AC22C3BCB00090226C /* MLLabelUtil.m */,
+				3A8902AF22C3BCB00090226C /* MomentConstant.h */,
+				3A8902AB22C3BCAF0090226C /* MomentConstant.m */,
+				3A8902AE22C3BCB00090226C /* MomentMacros.h */,
+				3A8902AA22C3BCAF0090226C /* MomentUtil.h */,
+				3A8902B022C3BCB00090226C /* MomentUtil.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -499,14 +534,16 @@
 		3ADE9558224DEEE200E9C4A4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3ADE9559224DEEE200E9C4A4 /* Comment.h */,
-				3ADE955A224DEEE200E9C4A4 /* Moment.m */,
-				3ADE955B224DEEE200E9C4A4 /* MPicture.m */,
-				3ADE955C224DEEE200E9C4A4 /* MUser.m */,
-				3ADE955D224DEEE200E9C4A4 /* Comment.m */,
-				3ADE955E224DEEE200E9C4A4 /* MUser.h */,
-				3ADE955F224DEEE200E9C4A4 /* MPicture.h */,
-				3ADE9560224DEEE200E9C4A4 /* Moment.h */,
+				3A8902A222C3BC4E0090226C /* Comment.h */,
+				3A89029B22C3BC4D0090226C /* Comment.m */,
+				3A89029F22C3BC4D0090226C /* MLocation.h */,
+				3A89029E22C3BC4D0090226C /* MLocation.m */,
+				3A8902A022C3BC4D0090226C /* Moment.h */,
+				3A89029D22C3BC4D0090226C /* Moment.m */,
+				3A8902A122C3BC4E0090226C /* MPicture.h */,
+				3A8902A322C3BC4E0090226C /* MPicture.m */,
+				3A8902A422C3BC4E0090226C /* MUser.h */,
+				3A89029C22C3BC4D0090226C /* MUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -676,48 +713,55 @@
 			files = (
 				3ADE9535224DE93600E9C4A4 /* UIView+CZAddition.m in Sources */,
 				3ADE9539224DE93600E9C4A4 /* NSString+CZPath.m in Sources */,
+				3A89029722C3BA810090226C /* LBWCUserModel.m in Sources */,
 				3ADE956F224DEF2000E9C4A4 /* MMImageListView.m in Sources */,
 				3ADE953F224DE93600E9C4A4 /* NSAttributedString+CZAdditon.m in Sources */,
 				3ADE9534224DE93600E9C4A4 /* UIColor+CZAddition.m in Sources */,
 				3ADE9516224DE81E00E9C4A4 /* NSString+Letter.m in Sources */,
-				3ADE9555224DED6200E9C4A4 /* MomentUtil.m in Sources */,
 				3A89028422C335440090226C /* UIScrollView+Category.m in Sources */,
 				3ADE9543224DEAD300E9C4A4 /* LBWCMainController.m in Sources */,
 				3ADE957D225050C400E9C4A4 /* LBWCSearchResultController.m in Sources */,
 				3ADE9572224DEF2000E9C4A4 /* MMOperateMenuView.m in Sources */,
+				3A89029122C3B8210090226C /* LBWCUserDetailController.m in Sources */,
 				3ADE95832250521B00E9C4A4 /* LBWCMessage.m in Sources */,
 				3ADE953E224DE93600E9C4A4 /* UIBarButtonItem+Extension.m in Sources */,
 				3ADE954C224DEB3900E9C4A4 /* LBWCMessageController.m in Sources */,
+				3A8902B222C3BCB00090226C /* MLLabelUtil.m in Sources */,
 				3ADE9570224DEF2000E9C4A4 /* MMImagePreviewView.m in Sources */,
 				3ADE9571224DEF2000E9C4A4 /* MomentCell.m in Sources */,
+				3A8902A922C3BC4E0090226C /* MPicture.m in Sources */,
 				3ADE95802250516200E9C4A4 /* LBWCMessageCell.m in Sources */,
+				3A8902A622C3BC4E0090226C /* MUser.m in Sources */,
 				3ADE954F224DEB4800E9C4A4 /* LBWCContactsController.m in Sources */,
 				3ADE9538224DE93600E9C4A4 /* NSString+CZBase64.m in Sources */,
+				3A8902B322C3BCB00090226C /* MomentUtil.m in Sources */,
 				3ADE9511224DE81E00E9C4A4 /* UIView+Geometry.m in Sources */,
+				3A8902A822C3BC4E0090226C /* MLocation.m in Sources */,
 				3ADE9537224DE93600E9C4A4 /* UILabel+CZAddition.m in Sources */,
 				3ADE9579224DEF9600E9C4A4 /* UIView+Frame.m in Sources */,
+				3A89028B22C3B7060090226C /* LBWCMineTV.m in Sources */,
 				3ADE953B224DE93600E9C4A4 /* NSObject+CZRuntime.m in Sources */,
-				3ADE9563224DEEE200E9C4A4 /* MUser.m in Sources */,
 				3ADE9502224DE69E00E9C4A4 /* ViewController.m in Sources */,
 				3ADE9546224DEB0500E9C4A4 /* LBWCMineController.m in Sources */,
 				3ADE953C224DE93600E9C4A4 /* UIViewController+CZAddition.m in Sources */,
+				3A8902A522C3BC4E0090226C /* Comment.m in Sources */,
+				3A89028E22C3B7F60090226C /* LBWCMineModel.m in Sources */,
 				3ADE9515224DE81E00E9C4A4 /* JKDBHelper.m in Sources */,
 				3ADE9512224DE81E00E9C4A4 /* Utility.m in Sources */,
-				3ADE9556224DED6200E9C4A4 /* MLLabelUtil.m in Sources */,
+				3A8902B122C3BCB00090226C /* MomentConstant.m in Sources */,
+				3A8902A722C3BC4E0090226C /* Moment.m in Sources */,
 				3ADE9549224DEB1C00E9C4A4 /* LBWCDiscoverController.m in Sources */,
 				3ADE9513224DE81E00E9C4A4 /* JPinYinUtil.m in Sources */,
 				3ADE9514224DE81E00E9C4A4 /* JKDBModel.m in Sources */,
 				3ADE9501224DE69E00E9C4A4 /* AppDelegate.m in Sources */,
-				3ADE9564224DEEE200E9C4A4 /* Comment.m in Sources */,
-				3ADE9562224DEEE200E9C4A4 /* MPicture.m in Sources */,
 				3ADE9540224DE93600E9C4A4 /* NSArray+Log.m in Sources */,
 				3A89028522C335440090226C /* MMRunLoopWorkDistribution.m in Sources */,
+				3A89029422C3B86F0090226C /* LBWCUserDetailCell.m in Sources */,
 				3ADE953D224DE93600E9C4A4 /* NSString+CZHash.m in Sources */,
 				3ADE9536224DE93600E9C4A4 /* UIScreen+CZAddition.m in Sources */,
 				3ADE953A224DE93600E9C4A4 /* UIButton+CZAddition.m in Sources */,
 				3A89028822C338370090226C /* LBWCMessageTV.m in Sources */,
 				3ADE94E0224DE2D100E9C4A4 /* main.m in Sources */,
-				3ADE9561224DEEE200E9C4A4 /* Moment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,17 +1,16 @@
 //
-//  MUser.h
-//  MomentKit
+//  LBWCUserModel.h
+//  LBWeChat
 //
-//  Created by LEA on 2019/2/28.
-//  Copyright © 2019 LEA. All rights reserved.
-//
-//  用户Model
+//  Created by liubo on 2019/6/26.
+//  Copyright © 2019 刘博. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JKDBModel.h"
 
-@interface MUser : JKDBModel
+NS_ASSUME_NONNULL_BEGIN
 
+@interface LBWCUserModel : JKDBModel
 // 用户类型 1：自己 0：其他人
 @property (nonatomic, assign) int type;
 // 名字
@@ -22,6 +21,6 @@
 @property (nonatomic, copy) NSString * portrait;
 // 区域
 @property (nonatomic, copy) NSString * region;
-
 @end
 
+NS_ASSUME_NONNULL_END
